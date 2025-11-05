@@ -1,3 +1,7 @@
 h1 {
     text-align: center;
 }
+body {
+    background-image: url("mullataust.png");
+    background-size: cover;
+}
