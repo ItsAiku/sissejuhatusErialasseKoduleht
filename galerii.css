@@ -1,3 +1,38 @@
-h1 {
-    background: chartreuse;
+body {
+    background-image: url("mullataust.png");
+}
+
+header {
+    margin: 5px;
+    background: #b38b43;
+    text-align: center;
+    padding: 30px;
+}
+
+.sisu {
+    width: fit-content;
+}
+
+.pilt {
+    display: block;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.tekst {
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #84ff00;
+    text-align: right;
+    font-family: sans-serif;
+}
+
+footer {
+    font-family: sans-serif;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 17px;
 }
