@@ -1,3 +1,20 @@
 h1 {
     text-align: center;
+<<<<<<< Updated upstream
+=======
+    margin: auto;
+}
+body {
+    background-image: url("mullataust.png");
+    background-size: cover;
+    margin: auto;
+}
+header {
+    background-image: url("rohuHeader.png");
+    width: 100%;
+    height: 300px;
+    background-position: 0% 45%;
+    text-align: center;
+
+>>>>>>> Stashed changes
 }
