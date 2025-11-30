@@ -9,7 +9,6 @@
 body {
     background-image: url("suurtaust.png");
     background-size: contain;
-    background-repeat: repeat;
     color: #ffffff;
     min-height: 100vh;
 }
