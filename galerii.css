@@ -18,6 +18,10 @@ body {
     margin: 0 auto;
 }
 
+#pilt1 {
+    margin-top: 15px;
+}
+
 .pilt {
     display: block;
     width: 80vw;
