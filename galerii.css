@@ -1,13 +1,13 @@
 * {
     cursor: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 body {
     background-image: url("maimkraft.png");
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
     background-size: cover;
     color: #ffffff;
     min-height: 100vh;
