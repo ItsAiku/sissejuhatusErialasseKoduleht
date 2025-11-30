@@ -89,23 +89,3 @@ footer p {
     font-size: 14px;
     font-family: sans-serif;
 }
-
-/* ------------------------------- */
-/* FOOTER IMAGES                   */
-/* ------------------------------- */
-
-.footer-images {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    margin-bottom: 12px;
-}
-
-.footer-images img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 3px solid #222;
-    box-shadow: 0 0 10px #000;
-}
