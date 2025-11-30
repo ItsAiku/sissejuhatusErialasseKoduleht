@@ -39,7 +39,7 @@
 
     background-image:
             linear-gradient(#3ab72ccc, #2f9f20cc),
-            url("maimkraft.png");
+            url("taustad/maimkraft.png");
     background-blend-mode: multiply;
     background-size: cover;
     animation: dirtShift 8s ease-in-out infinite alternate;
