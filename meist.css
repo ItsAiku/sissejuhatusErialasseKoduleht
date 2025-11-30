@@ -136,7 +136,9 @@ body, * {
 }
 
 .content-button {
+  color: #ffffff;
   font-weight: bold;
+  text-shadow: 3px 3px 0 #181818;
   background-color: #8f8f8f7e;
   border-color: #AAA #565656 #565656 #AAA;
   outline: 2px solid #000;
@@ -144,11 +146,8 @@ body, * {
   margin-top: 10px;
   transition: background-color 0.3s, box-shadow 0.1s;
 }
-.content-button a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  text-shadow: 3px 3px #4C4C4C;
+.content-button:hover {
+  background-color: #b5b5b5aa;
 }
 
 .content-image {
