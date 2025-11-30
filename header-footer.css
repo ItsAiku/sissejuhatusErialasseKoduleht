@@ -1,0 +1,111 @@
+/* ------------------------------- */
+/* NAVIGATION BAR                  */
+/* ------------------------------- */
+
+.mc-header-inner .nav-links {
+    pointer-events: auto;
+
+}
+.nav-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    text-shadow: 4px 4px 0 #000;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #3ab72c;
+    text-shadow: 0 0 10px #3ab72c, 0 0 20px #3ab72c;
+}
+
+/* ------------------------------- */
+/* MINECRAFT HEADER                */
+/* ------------------------------- */
+
+.mc-header {
+    height: 240px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+
+    background-image:
+            linear-gradient(#3ab72ccc, #2f9f20cc),
+            url("maimkraft.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    animation: dirtShift 8s ease-in-out infinite alternate;
+    background-position: center -50px;
+    box-shadow: 0 10px 0 #1a1107;
+}
+
+@keyframes dirtShift {
+    0% { background-position-y: 0; }
+    100% { background-position-y: -30px; }
+}
+
+.mc-header-inner {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
+
+.header-title {
+    font-size: 64px;
+    font-weight: 900;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.header-tagline {
+    font-size: 24px;
+    margin-top: 5px;
+    text-shadow: 3px 3px 0 #000;
+}
+
+/* ------------------------------- */
+/* FOOTER                          */
+/* ------------------------------- */
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* ------------------------------- */
+/* FOOTER IMAGES                   */
+/* ------------------------------- */
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 12px;
+}
+
+.footer-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #222;
+    box-shadow: 0 0 10px #000;
+}
