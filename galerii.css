@@ -7,8 +7,9 @@
 }
 
 body {
-    background-image: url("maimkraft.png");
-    background-size: cover;
+    background-image: url("suurtaust.png");
+    background-size: contain;
+    background-repeat: repeat;
     color: #ffffff;
     min-height: 100vh;
 }
