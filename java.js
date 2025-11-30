@@ -1,4 +1,5 @@
-// Kood on kirjutatud Aivar Alliku poolt ja on mõeldud hiire jälgimist jäljendama efekti ringidega
+// Kood on kirjutatud Aivar Alliku poolt ja on mõeldud hiire jälgimist jäljendama efekti ringidega. 
+// Kursor peaks jäljendama mängus olevat eset, milleks on ender pearl
 
 
 // Hoiab hiire koordinaate
