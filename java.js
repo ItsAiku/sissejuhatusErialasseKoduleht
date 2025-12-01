@@ -1,4 +1,5 @@
-// Kood on kirjutatud Aivar Alliku poolt ja on mõeldud hiire jälgimist jäljendama efekti ringidega. 
+// Kood on kirjutatud Aivar Alliku poolt ja inspiratsiooni on saadud sellisest õpetusest https://www.youtube.com/watch?v=7eE8xPyXSR4  
+// java skript on mõeldud hiire jälgimist jäljendama efekti ringidega. 
 // Kursor peaks jäljendama mängus olevat eset, milleks on ender pearl
 
 
